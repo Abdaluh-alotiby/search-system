@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import importlib.util
 import requests
 from bs4 import BeautifulSoup
-from . import namesearch as module
+import namesearch as module
 
 
 
